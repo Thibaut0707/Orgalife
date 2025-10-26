@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  OrgaLife — Gestion des finances personnelles (Next.js + IA)
 
-## Getting Started
+![Build passing](https://img.shields.io/badge/build-passing-brightgreen)
+![Vercel](https://img.shields.io/badge/deploy-vercel-blue)
+![Next.js](https://img.shields.io/badge/Next.js-15.4.5-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 
-First, run the development server:
+> Application web moderne de gestion financière, budgétaire et d’épargne avec intelligence artificielle intégrée.  
+> Développée avec **Next.js 15**, **React 19**, **TypeScript**, **TailwindCSS** et **Recharts**.
+
+---
+
+##  Fonctionnalités principales
+
+###  Finances
+- Suivi des **revenus et dépenses** mensuels.
+- **Catégorisation automatique** des transactions grâce à une IA locale.
+- **Budgets** par catégorie, avec détection automatique des dépassements.
+- **Graphiques interactifs** (courbes et barres) pour visualiser revenus, dépenses et soldes.
+- **Filtres puissants** par mois, année, catégorie, recherche texte.
+- **Import/Export CSV** pour la portabilité des données.
+
+###  Épargnes & Objectifs
+- Création d’objectifs d’épargne avec **barres de progression dynamiques**.
+- Modification en direct (nom, cible, épargne actuelle).
+- Ajout rapide d’argent avec suivi instantané.
+- Suggestions d’actions intelligentes selon ton comportement financier.
+
+###  IA intégrée
+- **IA locale** pour la catégorisation automatique des transactions.
+- **Conseils personnalisés** d’épargne et de gestion de budget.
+- Module prévu pour connexion à **l’assistant OpenAI / OpenRouter**.
+
+###  Apparence & UX
+- **Mode clair / sombre** (Dark mode toggle dans le header).
+- Interface **épurée, fluide et responsive**.
+- Navigation par sections : Filtres, Budgets, Transactions, Graphiques, Objectifs, IA.
+- Compatible **mobile / tablette / desktop**.
+
+---
+
+##  Technologies utilisées
+
+| Technologie | Usage |
+|-------------|-------|
+| **Next.js 15.4.5** | Framework React avec App Router |
+| **React 19** | Interface utilisateur |
+| **TypeScript** | Typage et robustesse du code |
+| **TailwindCSS 4** | Design moderne et réactif |
+| **Recharts 3.1.2** | Graphiques et visualisations |
+| **OpenAI SDK** | API IA pour les conseils et chat assistant |
+| **LocalStorage** | Sauvegarde persistante des données utilisateur |
+
+---
+
+##  Installation & Lancement
 
 ```bash
+# Cloner le dépôt
+git clone https://github.com/<ton-utilisateur>/orgalife.git
+cd orgalife
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Ouvre ton navigateur sur :
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+(Il n'est pas encore complet)
